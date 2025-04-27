@@ -1,0 +1,4 @@
+.pixel-font {
+    -unity-font: resource("Assets/Resources/Fonts/Micro5-Regular SDF.asset");
+    -unity-font-definition: resource("Assets/Resources/Fonts/Micro5-Regular SDF.asset");
+}

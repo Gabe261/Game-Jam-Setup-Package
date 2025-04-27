@@ -1,0 +1,6 @@
+.grey-container{
+    background-color: rgba(0, 0, 0, 0.39);
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}

@@ -1,12 +1,16 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:VisualElement name="Container" style="background-color: rgba(0, 0, 0, 0.39); flex-grow: 1; align-items: center; justify-content: center;">
-        <ui:VisualElement name="MenuBackground" style="width: 60%; height: 50%; background-color: rgb(140, 92, 255); border-left-color: rgb(114, 75, 205); border-right-color: rgb(114, 75, 205); border-top-color: rgb(114, 75, 205); border-bottom-color: rgb(114, 75, 205); border-top-width: 15px; border-right-width: 15px; border-bottom-width: 15px; border-left-width: 15px; border-top-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; border-bottom-left-radius: 50px; align-items: center; justify-content: space-around;">
-            <ui:VisualElement name="TitleTextContainer" style="background-color: rgb(114, 75, 205); width: 80%; border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; padding-top: 15px; padding-right: 15px; padding-bottom: 15px; padding-left: 15px;">
-                <ui:Label text="Label" name="TitleText" style="-unity-text-align: upper-center; color: rgb(255, 255, 255); font-size: 32px;" />
+    <Style src="project://database/Assets/Package%20Base/GJSP_Buttons.uss?fileID=7433441132597879392&amp;guid=1aa860090d0d5be4d907dbfa9a8a0f77&amp;type=3#GJSP_Buttons" />
+    <Style src="project://database/Assets/Package%20Base/GJSP_Starting_Menu.uss?fileID=7433441132597879392&amp;guid=3a11c83214570904d817bf942c6febb8&amp;type=3#GJSP_Starting_Menu" />
+    <Style src="project://database/Assets/Package%20Base/GJSP_Containers.uss?fileID=7433441132597879392&amp;guid=d28201b176967d2409c14d27410cfc14&amp;type=3#GJSP_Containers" />
+    <Style src="project://database/Assets/Package%20Base/GJSP_Fonts.uss?fileID=7433441132597879392&amp;guid=a2a66db5c2cced84badd021ec298c5c9&amp;type=3#GJSP_Fonts" />
+    <ui:VisualElement name="Container" class="grey-container">
+        <ui:VisualElement name="MenuBackground" class="menu-container">
+            <ui:VisualElement name="TitleTextContainer" class="menu-title-container">
+                <ui:Label text="Label" name="TitleText" class="menu-title-text pixel-font" />
             </ui:VisualElement>
-            <ui:VisualElement name="ButtonContainer" style="width: 60%; height: 30%; justify-content: space-around;">
-                <ui:Button text="Button" name="Button1" style="font-size: 24px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);" />
-                <ui:Button text="Button" name="Button2" style="font-size: 24px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);" />
+            <ui:VisualElement name="ButtonContainer" class="menu-button-container">
+                <ui:Button text="Button" name="Button1" class="button-border button-text pixel-font button-primary" />
+                <ui:Button text="Button" name="Button2" class="button-border button-text pixel-font button-primary" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>

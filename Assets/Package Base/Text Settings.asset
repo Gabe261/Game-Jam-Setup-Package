@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Text Settings
   m_EditorClassIdentifier: 
   m_Version: 
-  m_DefaultFontAsset: {fileID: 0}
-  m_DefaultFontAssetPath: Fonts & Materials/
+  m_DefaultFontAsset: {fileID: 11400000, guid: bf5be6b76a88b384b8b3e9727ca07d9c, type: 2}
+  m_DefaultFontAssetPath: Fonts/
   m_FallbackFontAssets: []
   m_MatchMaterialPreset: 0
   m_MissingCharacterUnicode: 0

@@ -1,0 +1,30 @@
+.menu-container{
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 50%;
+    background-color: #8C5CFF;
+    border-color: #724BCD;
+    border-width: 15px;
+    border-radius: 50px;
+}
+
+.menu-title-container{
+    width: 80%;
+    padding: 15px;
+    background-color: #724BCD;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.menu-title-text{
+    color: white;
+    font-size: 92px;
+    -unity-text-align: middle-center;
+}
+
+.menu-button-container{
+    justify-content: space-around;
+    width: 60%;
+    height: 30%;
+}
